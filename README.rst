@@ -81,6 +81,7 @@ connection, but historically has been over PS/2 or ADB connections.
 - When the user puts their finger on a modern capacitive touch screen, a
   tiny amount of current gets transferred to the finger. This completes the
   circuit through the electrostatic field of the conductive layer and
+  circuit through the electrostatic field of the conductive layer and
   creates a voltage drop at that point on the screen. The
   ``screen controller`` then raises an interrupt reporting the coordinate of
   the keypress.
@@ -645,7 +646,6 @@ Page Rendering
   above.
 * More complicated steps are taken when elements are ``floated``,
   positioned ``absolutely`` or ``relatively``, or other complex features
-  are used. See
   http://dev.w3.org/csswg/css2/ and http://www.w3.org/Style/CSS/current-work
   for more details.
 * Create layers to describe which parts of the page can be animated as a group
